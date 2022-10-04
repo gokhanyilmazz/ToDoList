@@ -1,0 +1,48 @@
+C:\Z35-Gunduz\ToDoList\ToDoList\ToDoList.Models\bin\Debug\net6.0\ToDoList.Models.deps.json
+C:\Z35-Gunduz\ToDoList\ToDoList\ToDoList.Models\bin\Debug\net6.0\ToDoList.Models.dll
+C:\Z35-Gunduz\ToDoList\ToDoList\ToDoList.Models\bin\Debug\net6.0\ToDoList.Models.pdb
+C:\Z35-Gunduz\ToDoList\ToDoList\ToDoList.Models\obj\Debug\net6.0\ToDoList.Models.csproj.AssemblyReference.cache
+C:\Z35-Gunduz\ToDoList\ToDoList\ToDoList.Models\obj\Debug\net6.0\ToDoList.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Z35-Gunduz\ToDoList\ToDoList\ToDoList.Models\obj\Debug\net6.0\ToDoList.Models.AssemblyInfoInputs.cache
+C:\Z35-Gunduz\ToDoList\ToDoList\ToDoList.Models\obj\Debug\net6.0\ToDoList.Models.AssemblyInfo.cs
+C:\Z35-Gunduz\ToDoList\ToDoList\ToDoList.Models\obj\Debug\net6.0\ToDoList.Models.csproj.CoreCompileInputs.cache
+C:\Z35-Gunduz\ToDoList\ToDoList\ToDoList.Models\obj\Debug\net6.0\ToDoList.Models.dll
+C:\Z35-Gunduz\ToDoList\ToDoList\ToDoList.Models\obj\Debug\net6.0\refint\ToDoList.Models.dll
+C:\Z35-Gunduz\ToDoList\ToDoList\ToDoList.Models\obj\Debug\net6.0\ToDoList.Models.pdb
+C:\Z35-Gunduz\ToDoList\ToDoList\ToDoList.Models\obj\Debug\net6.0\ref\ToDoList.Models.dll
+C:\Users\GÖKHAN\Desktop\ToDoList.30.05.2022\ToDoList\ToDoList\ToDoList.Models\bin\Debug\net6.0\ToDoList.Models.deps.json
+C:\Users\GÖKHAN\Desktop\ToDoList.30.05.2022\ToDoList\ToDoList\ToDoList.Models\bin\Debug\net6.0\ToDoList.Models.dll
+C:\Users\GÖKHAN\Desktop\ToDoList.30.05.2022\ToDoList\ToDoList\ToDoList.Models\bin\Debug\net6.0\ToDoList.Models.pdb
+C:\Users\GÖKHAN\Desktop\ToDoList.30.05.2022\ToDoList\ToDoList\ToDoList.Models\obj\Debug\net6.0\ToDoList.Models.csproj.AssemblyReference.cache
+C:\Users\GÖKHAN\Desktop\ToDoList.30.05.2022\ToDoList\ToDoList\ToDoList.Models\obj\Debug\net6.0\ToDoList.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GÖKHAN\Desktop\ToDoList.30.05.2022\ToDoList\ToDoList\ToDoList.Models\obj\Debug\net6.0\ToDoList.Models.AssemblyInfoInputs.cache
+C:\Users\GÖKHAN\Desktop\ToDoList.30.05.2022\ToDoList\ToDoList\ToDoList.Models\obj\Debug\net6.0\ToDoList.Models.AssemblyInfo.cs
+C:\Users\GÖKHAN\Desktop\ToDoList.30.05.2022\ToDoList\ToDoList\ToDoList.Models\obj\Debug\net6.0\ToDoList.Models.csproj.CoreCompileInputs.cache
+C:\Users\GÖKHAN\Desktop\ToDoList.30.05.2022\ToDoList\ToDoList\ToDoList.Models\obj\Debug\net6.0\ToDoList.Models.dll
+C:\Users\GÖKHAN\Desktop\ToDoList.30.05.2022\ToDoList\ToDoList\ToDoList.Models\obj\Debug\net6.0\refint\ToDoList.Models.dll
+C:\Users\GÖKHAN\Desktop\ToDoList.30.05.2022\ToDoList\ToDoList\ToDoList.Models\obj\Debug\net6.0\ToDoList.Models.pdb
+C:\Users\GÖKHAN\Desktop\ToDoList.30.05.2022\ToDoList\ToDoList\ToDoList.Models\obj\Debug\net6.0\ref\ToDoList.Models.dll
+C:\Users\STUDENT1\Desktop\hocayagosterilecektodolist\ToDoList\ToDoList.Models\bin\Debug\net6.0\ToDoList.Models.deps.json
+C:\Users\STUDENT1\Desktop\hocayagosterilecektodolist\ToDoList\ToDoList.Models\bin\Debug\net6.0\ToDoList.Models.dll
+C:\Users\STUDENT1\Desktop\hocayagosterilecektodolist\ToDoList\ToDoList.Models\bin\Debug\net6.0\ToDoList.Models.pdb
+C:\Users\STUDENT1\Desktop\hocayagosterilecektodolist\ToDoList\ToDoList.Models\obj\Debug\net6.0\ToDoList.Models.csproj.AssemblyReference.cache
+C:\Users\STUDENT1\Desktop\hocayagosterilecektodolist\ToDoList\ToDoList.Models\obj\Debug\net6.0\ToDoList.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\STUDENT1\Desktop\hocayagosterilecektodolist\ToDoList\ToDoList.Models\obj\Debug\net6.0\ToDoList.Models.AssemblyInfoInputs.cache
+C:\Users\STUDENT1\Desktop\hocayagosterilecektodolist\ToDoList\ToDoList.Models\obj\Debug\net6.0\ToDoList.Models.AssemblyInfo.cs
+C:\Users\STUDENT1\Desktop\hocayagosterilecektodolist\ToDoList\ToDoList.Models\obj\Debug\net6.0\ToDoList.Models.csproj.CoreCompileInputs.cache
+C:\Users\STUDENT1\Desktop\hocayagosterilecektodolist\ToDoList\ToDoList.Models\obj\Debug\net6.0\ToDoList.Models.dll
+C:\Users\STUDENT1\Desktop\hocayagosterilecektodolist\ToDoList\ToDoList.Models\obj\Debug\net6.0\refint\ToDoList.Models.dll
+C:\Users\STUDENT1\Desktop\hocayagosterilecektodolist\ToDoList\ToDoList.Models\obj\Debug\net6.0\ToDoList.Models.pdb
+C:\Users\STUDENT1\Desktop\hocayagosterilecektodolist\ToDoList\ToDoList.Models\obj\Debug\net6.0\ref\ToDoList.Models.dll
+C:\Users\GÖKHAN\Desktop\Projeler Son Halleri\ToDoList\ToDoList(Son Hali)\hocayagosterilecektodolist\ToDoList\ToDoList.Models\bin\Debug\net6.0\ToDoList.Models.deps.json
+C:\Users\GÖKHAN\Desktop\Projeler Son Halleri\ToDoList\ToDoList(Son Hali)\hocayagosterilecektodolist\ToDoList\ToDoList.Models\bin\Debug\net6.0\ToDoList.Models.dll
+C:\Users\GÖKHAN\Desktop\Projeler Son Halleri\ToDoList\ToDoList(Son Hali)\hocayagosterilecektodolist\ToDoList\ToDoList.Models\bin\Debug\net6.0\ToDoList.Models.pdb
+C:\Users\GÖKHAN\Desktop\Projeler Son Halleri\ToDoList\ToDoList(Son Hali)\hocayagosterilecektodolist\ToDoList\ToDoList.Models\obj\Debug\net6.0\ToDoList.Models.csproj.AssemblyReference.cache
+C:\Users\GÖKHAN\Desktop\Projeler Son Halleri\ToDoList\ToDoList(Son Hali)\hocayagosterilecektodolist\ToDoList\ToDoList.Models\obj\Debug\net6.0\ToDoList.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GÖKHAN\Desktop\Projeler Son Halleri\ToDoList\ToDoList(Son Hali)\hocayagosterilecektodolist\ToDoList\ToDoList.Models\obj\Debug\net6.0\ToDoList.Models.AssemblyInfoInputs.cache
+C:\Users\GÖKHAN\Desktop\Projeler Son Halleri\ToDoList\ToDoList(Son Hali)\hocayagosterilecektodolist\ToDoList\ToDoList.Models\obj\Debug\net6.0\ToDoList.Models.AssemblyInfo.cs
+C:\Users\GÖKHAN\Desktop\Projeler Son Halleri\ToDoList\ToDoList(Son Hali)\hocayagosterilecektodolist\ToDoList\ToDoList.Models\obj\Debug\net6.0\ToDoList.Models.csproj.CoreCompileInputs.cache
+C:\Users\GÖKHAN\Desktop\Projeler Son Halleri\ToDoList\ToDoList(Son Hali)\hocayagosterilecektodolist\ToDoList\ToDoList.Models\obj\Debug\net6.0\ToDoList.Models.dll
+C:\Users\GÖKHAN\Desktop\Projeler Son Halleri\ToDoList\ToDoList(Son Hali)\hocayagosterilecektodolist\ToDoList\ToDoList.Models\obj\Debug\net6.0\refint\ToDoList.Models.dll
+C:\Users\GÖKHAN\Desktop\Projeler Son Halleri\ToDoList\ToDoList(Son Hali)\hocayagosterilecektodolist\ToDoList\ToDoList.Models\obj\Debug\net6.0\ToDoList.Models.pdb
+C:\Users\GÖKHAN\Desktop\Projeler Son Halleri\ToDoList\ToDoList(Son Hali)\hocayagosterilecektodolist\ToDoList\ToDoList.Models\obj\Debug\net6.0\ref\ToDoList.Models.dll

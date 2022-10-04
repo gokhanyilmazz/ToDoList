@@ -1,0 +1,39 @@
+﻿
+<div class="modal fade" id="insertUserModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Yeni Kullanıcı Ekle</h5>
+                <button type="button" id="btnHideModal" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label class="col-form-label">Ad Soyad</label>
+                        <input id="fullName" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label class="col-form-label">Kullanıcı Adı</label>
+                        <input id="userName" class="form-control"></input>
+                    </div>
+                      <div class="form-group">
+                        <label class="col-form-label">Şifre</label>
+                        <input id="passWord" type="password" class="form-control"></input>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-form-label">Kullanıcı Tipi</label>
+                         <select id="ddlUserType" class="form-control">
+                    </select>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="btnKapat" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+                <button type="button" id="btnGonder" class="btn btn-primary">Kullanıcı Ekle</button>
+            </div>
+        </div>
+    </div>
+</div>

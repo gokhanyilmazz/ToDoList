@@ -1,0 +1,55 @@
+﻿@model ToDoList.Models.User
+
+@{
+    Layout = null;
+}
+<html>
+
+
+
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Yinka Enoch Adedokun">
+	 <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+	  <link rel="stylesheet" href="~/css/Login.css" asp-append-version="true" />
+	<title>Login Page</title>
+</head>
+<body>
+	<!-- Main Content -->
+	<div class="container-fluid">
+		<div class="row main-content bg-success text-center">
+			<div class="col-md-4 text-center company__info">
+				<span class="company__logo"><h2><span class="fa fa-android"></span></h2></span>
+				<h4 class="company_title">To Do list</h4>
+			</div>
+			<div class="col-md-8 col-xs-12 col-sm-12 login_form ">
+				<div class="container-fluid">
+					<div class="row">
+						<h2>Giriş Yap</h2>
+					</div>
+					<div class="row">
+						<form method="post" asp-action="Login" class="form-group">
+							<div class="row">
+								<input asp-for="UserName" class="form__input" placeholder="Kullanıcı adınızı giriniz">
+							</div>
+							<div class="row">
+								<!-- <span class="fa fa-lock"></span> -->
+								<input asp-for="PassWord" type="password" class="form__input" placeholder="Şifrenizi giriniz">
+							</div>
+							
+							<div class="row">
+								<input type="submit" value="Giriş" class="btn">
+							</div>
+						</form>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Footer -->
+
+</body>
+</html>

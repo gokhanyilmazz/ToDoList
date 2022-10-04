@@ -1,0 +1,263 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\GÖKHAN\\Desktop\\Projeler Son Halleri\\ToDoList\\ToDoList(Son Hali)\\hocayagosterilecektodolist\\ToDoList\\ToDoList.Web\\ToDoList.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\GÖKHAN\\Desktop\\Projeler Son Halleri\\ToDoList\\ToDoList(Son Hali)\\hocayagosterilecektodolist\\ToDoList\\ToDoList.Data\\ToDoList.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\GÖKHAN\\Desktop\\Projeler Son Halleri\\ToDoList\\ToDoList(Son Hali)\\hocayagosterilecektodolist\\ToDoList\\ToDoList.Data\\ToDoList.Data.csproj",
+        "projectName": "ToDoList.Data",
+        "projectPath": "C:\\Users\\GÖKHAN\\Desktop\\Projeler Son Halleri\\ToDoList\\ToDoList(Son Hali)\\hocayagosterilecektodolist\\ToDoList\\ToDoList.Data\\ToDoList.Data.csproj",
+        "packagesPath": "C:\\Users\\GÖKHAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GÖKHAN\\Desktop\\Projeler Son Halleri\\ToDoList\\ToDoList(Son Hali)\\hocayagosterilecektodolist\\ToDoList\\ToDoList.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\GÖKHAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\GÖKHAN\\Desktop\\Projeler Son Halleri\\ToDoList\\ToDoList(Son Hali)\\hocayagosterilecektodolist\\ToDoList\\ToDoList.Models\\ToDoList.Models.csproj": {
+                "projectPath": "C:\\Users\\GÖKHAN\\Desktop\\Projeler Son Halleri\\ToDoList\\ToDoList(Son Hali)\\hocayagosterilecektodolist\\ToDoList\\ToDoList.Models\\ToDoList.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\GÖKHAN\\Desktop\\Projeler Son Halleri\\ToDoList\\ToDoList(Son Hali)\\hocayagosterilecektodolist\\ToDoList\\ToDoList.Models\\ToDoList.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\GÖKHAN\\Desktop\\Projeler Son Halleri\\ToDoList\\ToDoList(Son Hali)\\hocayagosterilecektodolist\\ToDoList\\ToDoList.Models\\ToDoList.Models.csproj",
+        "projectName": "ToDoList.Models",
+        "projectPath": "C:\\Users\\GÖKHAN\\Desktop\\Projeler Son Halleri\\ToDoList\\ToDoList(Son Hali)\\hocayagosterilecektodolist\\ToDoList\\ToDoList.Models\\ToDoList.Models.csproj",
+        "packagesPath": "C:\\Users\\GÖKHAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GÖKHAN\\Desktop\\Projeler Son Halleri\\ToDoList\\ToDoList(Son Hali)\\hocayagosterilecektodolist\\ToDoList\\ToDoList.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\GÖKHAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\GÖKHAN\\Desktop\\Projeler Son Halleri\\ToDoList\\ToDoList(Son Hali)\\hocayagosterilecektodolist\\ToDoList\\ToDoList.Utility\\ToDoList.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\GÖKHAN\\Desktop\\Projeler Son Halleri\\ToDoList\\ToDoList(Son Hali)\\hocayagosterilecektodolist\\ToDoList\\ToDoList.Utility\\ToDoList.Utility.csproj",
+        "projectName": "ToDoList.Utility",
+        "projectPath": "C:\\Users\\GÖKHAN\\Desktop\\Projeler Son Halleri\\ToDoList\\ToDoList(Son Hali)\\hocayagosterilecektodolist\\ToDoList\\ToDoList.Utility\\ToDoList.Utility.csproj",
+        "packagesPath": "C:\\Users\\GÖKHAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GÖKHAN\\Desktop\\Projeler Son Halleri\\ToDoList\\ToDoList(Son Hali)\\hocayagosterilecektodolist\\ToDoList\\ToDoList.Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\GÖKHAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\GÖKHAN\\Desktop\\Projeler Son Halleri\\ToDoList\\ToDoList(Son Hali)\\hocayagosterilecektodolist\\ToDoList\\ToDoList.Web\\ToDoList.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\GÖKHAN\\Desktop\\Projeler Son Halleri\\ToDoList\\ToDoList(Son Hali)\\hocayagosterilecektodolist\\ToDoList\\ToDoList.Web\\ToDoList.Web.csproj",
+        "projectName": "ToDoList.Web",
+        "projectPath": "C:\\Users\\GÖKHAN\\Desktop\\Projeler Son Halleri\\ToDoList\\ToDoList(Son Hali)\\hocayagosterilecektodolist\\ToDoList\\ToDoList.Web\\ToDoList.Web.csproj",
+        "packagesPath": "C:\\Users\\GÖKHAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GÖKHAN\\Desktop\\Projeler Son Halleri\\ToDoList\\ToDoList(Son Hali)\\hocayagosterilecektodolist\\ToDoList\\ToDoList.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\GÖKHAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\GÖKHAN\\Desktop\\Projeler Son Halleri\\ToDoList\\ToDoList(Son Hali)\\hocayagosterilecektodolist\\ToDoList\\ToDoList.Data\\ToDoList.Data.csproj": {
+                "projectPath": "C:\\Users\\GÖKHAN\\Desktop\\Projeler Son Halleri\\ToDoList\\ToDoList(Son Hali)\\hocayagosterilecektodolist\\ToDoList\\ToDoList.Data\\ToDoList.Data.csproj"
+              },
+              "C:\\Users\\GÖKHAN\\Desktop\\Projeler Son Halleri\\ToDoList\\ToDoList(Son Hali)\\hocayagosterilecektodolist\\ToDoList\\ToDoList.Models\\ToDoList.Models.csproj": {
+                "projectPath": "C:\\Users\\GÖKHAN\\Desktop\\Projeler Son Halleri\\ToDoList\\ToDoList(Son Hali)\\hocayagosterilecektodolist\\ToDoList\\ToDoList.Models\\ToDoList.Models.csproj"
+              },
+              "C:\\Users\\GÖKHAN\\Desktop\\Projeler Son Halleri\\ToDoList\\ToDoList(Son Hali)\\hocayagosterilecektodolist\\ToDoList\\ToDoList.Utility\\ToDoList.Utility.csproj": {
+                "projectPath": "C:\\Users\\GÖKHAN\\Desktop\\Projeler Son Halleri\\ToDoList\\ToDoList(Son Hali)\\hocayagosterilecektodolist\\ToDoList\\ToDoList.Utility\\ToDoList.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

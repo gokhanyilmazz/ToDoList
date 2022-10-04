@@ -1,0 +1,91 @@
+﻿@using System.Security.Claims
+<a class="btn btn-primary" id="btnInsert">Ekle</a>
+
+<div id="todos" class="row mt-3">
+</div>
+
+
+
+
+    <partial name="_InsertToDoModal">
+
+@section Scripts{
+    <script type="text/javascript">
+
+$(document).ready(function() {
+
+    $("#btnInsert").click(function() {
+        $("#insertModal").modal('show');
+        $("#enddate").val('');
+        $("#description").val('');
+
+    });
+
+    $("#btnHideModal").click(function() {
+        $("#insertModal").modal('hide');
+    });
+
+    $("#btnKapat").click(function() {
+        $("#insertModal").modal('hide');
+    });
+
+    $("#btnGonder").click(function() {
+
+        var ToDoModel = {
+            endDate: document.getElementById("enddate").value,
+            description: document.getElementById("description").value,
+            statusId: "1"
+
+        };
+        var url = "@Url.Action("Add","ToDo")";
+        console.log(ToDoModel);
+
+        $.post(url, ToDoModel, function(res) {
+            $("#insertModal").modal('hide');
+           Fill();
+
+        });
+
+
+
+    });
+
+
+    Fill();
+
+});
+
+        function Complete(id) {
+
+            var ToDoModel = { id: id };
+            var url = "@Url.Action("CompleteAjax","ToDo")";
+            $.post(url, ToDoModel, function(res) {
+                Fill();
+            });
+
+        }
+
+        function Fill() {
+            var url = "@Url.Action("GetAllByUserId","ToDo")";
+            var data = { userId: @Context.User.Claims.First(c=>c.Type==ClaimTypes.NameIdentifier).Value};
+            $.post(url, data, function(res) {
+
+                console.log(res);
+                var htmlString = "";
+                for (var todo of res) {
+                    htmlString += "<div class='card text-white bg-primary mb-3 m-3' style='max-width: 20rem;'>";
+                    htmlString += "<div class='card-header'><a onclick='Complete(" + todo.id + ")' class='btn btn-sm btn-success'>Tamamla</a></div>";
+                    htmlString += "<div class='card-body'>";
+                    htmlString += "     <h4 class='card-title'>" + todo.description + "</h4>";
+                    htmlString += "   <p class='card-text'>" + todo.endDate + "</p>";
+                    htmlString += "</div>";
+                    htmlString += "</div>";
+                }
+                document.getElementById("todos").innerHTML = htmlString;
+
+            });
+        }
+
+
+    </script>
+}

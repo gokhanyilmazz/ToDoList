@@ -1,0 +1,173 @@
+﻿@section Styles
+    {
+    <link rel="stylesheet" href="//cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css" />
+ }
+    <div class="row">
+        <div class="col-12 m-2">
+            <a id="btnEkle" class="btn btn-success">Yeni Kullanıcı Ekle</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <table id="datatable" class="table table-bordered dt-responsive nowrap" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
+                        <thead>
+                            <tr>
+                                <th>Ad Soyad</th>
+                                <th>Kullanıcı Adı</th>
+                                <th>Kullanıcı Tipi</th>
+                                <th>İşlemler</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <partial name="_InsertUserModal" />
+    @section Scripts
+    {
+    <script src="//cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript">
+
+        var updateUserId;
+       
+        var DataTable;
+        $(document).ready(
+            function() {
+                loadUserTypes();
+                loadDataTable();
+                $("#btnEkle").click(ShowUserInsertModal);
+                $("#btnHideModal").click(HideUserInsertModal);
+                $("#btnKapat").click(HideUserInsertModal);
+                
+            }
+        );
+        function loadDataTable() {
+            DataTable = $('#datatable').DataTable(
+                {
+                    "ajax": { "url": "/User/GetAll?isActive=True" },
+                    "columns": [
+                        { "data": "fullName" },
+                        { "data": "userName" },
+                        { "data": "userType" },
+                        {
+                            "data": "id",
+                            "render": function(data) {
+                                return `
+                                                <a onclick="ShowUserUpdateModal('${data}')" title="Düzenle" class="btn-success btn-sm" >Düzenle</a>
+                                                <a onclick="DeleteConfirm('${data}')"  title="Sil" class="btn-danger btn-sm" >Sil</a>                    
+                                                `
+                            }
+                        }
+                    ]
+                }
+            );
+        }
+        function DeleteConfirm(id) {
+            Swal.fire({
+                title: 'Silmek istediğinizden emin misiniz?',
+                showDenyButton: true,
+                showCancelButton: true,
+                confirmButtonText: 'Evet',
+                denyButtonText: 'Hayır',
+                cancelButtonText: 'İptal'
+            }).
+                then((result) => {  /* Read more about isConfirmed, isDenied below */
+                    if (result.isConfirmed) {
+                        Delete(id);
+                    }
+                    else if (result.isDenied) { Swal.fire('Değişiklikler iptal edildi', '', 'info') }
+                })
+        }
+        function loadUserTypes() {
+            var model;
+            var url = "@Url.Action("GetAll","UserType")";
+            $.getJSON(url, function(res) {
+                var len = res.length;
+                $("#ddlUserType").empty();
+                for (var i = 0; i < len; i++) {
+                    var id = res[i]['id'];
+                    var name = res[i]['name'];
+                    $("#ddlUserType").append("<option value='" + id + "'>" + name + "</option>");
+                }
+            });
+        }
+        function ShowUserInsertModal() {
+            $("#fullName").val('');
+            $("#userName").val('');
+            $("#passWord").val('');
+            $("#insertUserModal").modal('show');
+            $("#btnGonder").unbind();
+            $("#btnGonder").click(Add);
+            $("#btnGonder").text("Ekle");
+        }
+        function ShowUserUpdateModal(id) {
+            $("baslik").text("Kullanıcı Güncelle");
+            $("#insertUserModal").modal('show');
+            $("#btnGonder").text("Güncelle");
+            $("#btnGonder").unbind();
+            $("#btnGonder").click(UpdateUser);
+            updateUserId = id;
+
+            var data = { userId: id };
+            var url = "@Url.Action("GetUserById","User")";
+            $.post(url, data, function(get) {
+                $("#fullName").val(get.fullName);
+                $("#userName").val(get.userName);
+                $("#passWord").val(get.passWord);
+                $("#ddlUserType").val(get.userTypeId);
+
+            });
+        }
+        function UpdateUser() {
+            var UserModel = {
+                id:updateUserId,
+                fullName: $("#fullName").val(),
+                userName: $("#userName").val(),
+                passWord: $("#passWord").val(),
+                userTypeId: $("#ddlUserType").val(),               
+            };
+            var url = "@Url.Action("Update","User")";
+            console.log(UserModel);
+            $.post(url, UserModel, function(res) {
+                DataTable.ajax.reload();
+
+                $("#insertUserModal").modal('hide');
+            });
+        }
+        function HideUserInsertModal() {
+            $("#insertUserModal").modal('hide');
+        }
+        function Delete(id) {
+            var model = { id: id };
+            var url = "@Url.Action("Delete","User")";
+            $.post(url, model, function(res) {
+                DataTable.ajax.reload();
+            });
+        }
+        function Add() {
+            var model = {
+                fullName: $("#fullName").val(),
+                userName: $("#userName").val(),
+                passWord: $("#passWord").val(),
+                userTypeId: $("#ddlUserType").val(),
+                userTypeName: $("#ddlUserType option:selected").text()
+            };
+            var url = "@Url.Action("Add","User")";
+            console.log(model);
+            $.post(url, model, function(res) {
+                $("#insertUserModal").modal('hide');
+                DataTable.row.add({
+                    "fullName": model.fullName,
+                    "userName": model.userName,
+                    "userType": model.userTypeName,
+                    "id": res
+                }).draw();
+            });
+        }
+    </script>
+ }
